@@ -1,0 +1,11 @@
+#write a program to print duplicates in list					
+a = [1, 2, 3, 1, 2, 4, 5, 6, 5]
+dup = []
+
+for i in range(len(a)):
+    for j in range(i + 1, len(a)):
+
+        if a[i] == a[j] and a[i] not in dup:
+			
+            dup.append(a[i]) 
+print(dup)
