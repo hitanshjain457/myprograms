@@ -5,6 +5,7 @@ for i in range(n):
     numbers.append(num)
     t= tuple(numbers)
 print(t)
+print("total number:"len(t))
 largest=t[0]
 smallest=t[0]
 for i in t:
