@@ -1,4 +1,4 @@
-# write a program to print unique character in list
+# write a program to diffreniate odd number and even number
 a=[1,2,3,4,4,5,4,5,74,4]
 b=[]
 c=[]
